@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="NOVA — Discover better products, compare deals and shop through trusted retailers.">
+<meta property="og:title" content="NOVA — Discover Better. Shop Smarter.">
+<meta property="og:description" content="Premium affiliate shopping discovery platform.">
+<title>NOVA — Discover Better. Shop Smarter.</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="topbar">NOVA is an affiliate product-discovery platform. Retail purchases are completed on the retailer's website.</div>
+<header class="header">
+  <div class="container header-row">
+    <button class="icon-btn menu-btn" data-menu aria-label="Open menu">☰</button>
+    <a class="logo" href="index.html">NO<span>VA</span></a>
+    <form class="search" id="searchForm">
+      <select aria-label="Search category"><option>All</option><option>Electronics</option><option>Fashion</option><option>Home</option></select>
+      <input id="searchInput" aria-label="Search products" placeholder="Search products, brands and deals...">
+      <button>Search</button>
+    </form>
+    <div class="header-actions">
+      <a class="icon-btn" href="wishlist.html"><b>♡</b><small>Wishlist</small></a>
+      <a class="icon-btn" href="compare.html"><b>⇄</b><small>Compare</small></a>
+    </div>
+  </div>
+  <nav class="navlinks container">
+    <a href="products.html">All Products</a><a href="deals.html">Today's Deals</a><a href="trending.html">Trending</a>
+    <a href="bestsellers.html">Best Sellers</a><a href="categories.html">Categories</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+  </nav>
+</header>
+<main class="container">
+
+<section class="hero"><div class="hero-content">
+<div class="eyebrow">NEXT-GENERATION SHOPPING DISCOVERY</div>
+<h1>Discover products worth buying.</h1>
+<p>Explore carefully selected products, compare deals and shop directly from trusted retailers through NOVA.</p>
+<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:22px">
+<a class="btn btn-primary" href="products.html">Explore Products →</a>
+<a class="btn btn-light" href="deals.html">Today's Deals</a>
+</div></div></section>
+
+<section class="section">
+<div class="section-head"><div><h2>Explore categories</h2><span class="muted">Find what you need faster.</span></div><a href="categories.html">View all →</a></div>
+<div class="categories">
+<a class="category" href="products.html?category=Smartphones"><div class="emoji">📱</div><b>Smartphones</b></a>
+<a class="category" href="products.html?category=Laptops"><div class="emoji">💻</div><b>Laptops</b></a>
+<a class="category" href="products.html?category=Electronics"><div class="emoji">⚡</div><b>Electronics</b></a>
+<a class="category" href="products.html?category=Headphones"><div class="emoji">🎧</div><b>Headphones</b></a>
+<a class="category" href="products.html?category=Fashion"><div class="emoji">👟</div><b>Fashion</b></a>
+<a class="category" href="products.html?category=Home%20%26%20Kitchen"><div class="emoji">🏠</div><b>Home & Kitchen</b></a>
+<a class="category" href="products.html?category=Gaming"><div class="emoji">🎮</div><b>Gaming</b></a>
+<a class="category" href="products.html?category=Sports"><div class="emoji">⚽</div><b>Sports</b></a>
+<a class="category" href="products.html?category=Books"><div class="emoji">📚</div><b>Books</b></a>
+<a class="category" href="products.html?category=Travel"><div class="emoji">✈️</div><b>Travel</b></a>
+<a class="category" href="products.html?category=Smartwatches"><div class="emoji">⌚</div><b>Smartwatches</b></a>
+<a class="category" href="products.html?category=Deals"><div class="emoji">🔥</div><b>Deals</b></a>
+</div></section>
+
+<section class="section"><div class="section-head"><div><h2>Today's best deals</h2><span class="muted">Demo offers — replace with verified current offers.</span></div><strong class="timer" id="timer">09:59:59</strong></div>
+<div class="deal-banner"><div class="deal-art">🎧</div><div class="deal-copy"><div class="off">LIMITED-TIME DEMO DEAL</div><h3>Studio Wireless Headphones</h3><p class="muted">A premium demo product presentation for your affiliate storefront.</p><h2>₹3,299 <span class="old">₹5,999</span></h2><a class="btn btn-primary" href="product.html?id=3">View Deal</a></div></div></section>
+
+<section class="section"><div class="section-head"><div><h2>Featured products</h2><span class="muted">Hand-picked demo listings.</span></div><a href="products.html">View all →</a></div><div class="grid" data-product-grid></div></section>
+
+<section class="section"><div class="section-head"><div><h2>Why NOVA</h2><span class="muted">A smarter way to discover online products.</span></div></div>
+<div class="trust"><div class="trust-card">🔎 <h3>Smart discovery</h3><p class="muted">Search and filter products quickly.</p></div>
+<div class="trust-card">⇄ <h3>Compare before buying</h3><p class="muted">Put products side by side.</p></div>
+<div class="trust-card">🔗 <h3>Retailer links</h3><p class="muted">Complete purchases on the retailer's site.</p></div>
+<div class="trust-card">✓ <h3>Transparent</h3><p class="muted">Clear affiliate disclosure and demo labeling.</p></div></div></section>
+
+<div class="newsletter"><div><h2>Get better deals first.</h2><p>Newsletter demo — connect an email provider before collecting real subscribers.</p></div><form id="newsletterForm"><input type="email" required placeholder="Your email"><button class="btn btn-primary">Subscribe</button></form></div>
+<script>
+setInterval(()=>{const e=document.getElementById("timer");if(!e)return;let s=599;let x=e.dataset.s?Number(e.dataset.s):s;x=(x-1+86400)%86400;e.dataset.s=x;let h=String(Math.floor(x/3600)).padStart(2,"0"),m=String(Math.floor(x%3600/60)).padStart(2,"0"),ss=String(x%60).padStart(2,"0");e.textContent=h+":"+m+":"+ss},1000);
+</script>
+</main>
+<footer>
+  <div class="container footer-grid">
+    <div><div class="logo">NO<span>VA</span></div><p>Discover better products, compare deals and shop through trusted retailers.</p></div>
+    <div><h3>Shop</h3><a href="products.html">All Products</a><a href="deals.html">Deals</a><a href="trending.html">Trending</a></div>
+    <div><h3>Company</h3><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+    <div><h3>Legal</h3><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="affiliate-disclosure.html">Affiliate Disclosure</a></div>
+    <div><h3>Help</h3><a href="contact.html">Contact Support</a><a href="categories.html">Categories</a></div>
+  </div>
+  <div class="copy">© 2026 NOVA. Demo affiliate storefront. Replace demo content and legal placeholders before launch.</div>
+</footer>
+<script src="js/products.js"></script>
+<script src="js/app.js"></script>
+<script src="js/search.js"></script>
+</body></html>
