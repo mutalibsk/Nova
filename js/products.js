@@ -10,22 +10,22 @@
 const NOVA_PRODUCTS = [
   {
     id: 1,
-    name: "NOVA X1 Smartphone",
-    brand: "Demo Brand",
-    category: "Smartphones",
-    image: "assets/images/phone.svg",
-    price: 29999,
-    originalPrice: 34999,
-    discount: "14% OFF",
-    rating: 4.7,
-    reviews: 1250,
+    name: "VAS COLLECTIONS Satin Bed Sheet King Size",
+    brand: "VAS COLLECTIONS",
+    category: "Bedsheets",
+    image: "assets/images/bed-sheet.svg",",
+    price: 1067,
+    originalPrice: 2999,
+    discount: "64% OFF",
+    rating: 4.0,
+    reviews: 108,
     retailer: "Amazon",
-    affiliateUrl: "", // PASTE YOUR APPROVED AFFILIATE LINK HERE
-    description: "Demo product for the NOVA storefront. Replace this with accurate product information from an authorized source.",
+    affiliateUrl: "https://link.amazon/B0elVbZTc", // PASTE YOUR APPROVED AFFILIATE LINK HERE
+    description: "Luxury satin bed sheet with 2 pillow covers, ultra soft and silky smooth.",
     features: ["Fast performance", "High-resolution display", "Long battery life"],
     pros: ["Modern design", "Good everyday performance", "Bright display"],
     cons: ["Demo information", "Replace specifications with verified data"],
-    score: 92,
+    score: 90,
     featured: true, trending: true, bestSeller: true, deal: true
   },
   {
