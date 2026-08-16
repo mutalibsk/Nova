@@ -13,7 +13,7 @@ const NOVA_PRODUCTS = [
     name: "VAS COLLECTIONS Satin Bed Sheet King Size",
     brand: "VAS COLLECTIONS",
     category: "Bedsheets",
-    image: "assets/images/bed-sheet.svg",",
+    image: "assets/images/phone.svg",
     price: 1067,
     originalPrice: 2999,
     discount: "64% OFF",
