@@ -30,7 +30,7 @@ const NOVA_PRODUCTS = [
   },
   {
     id: 2, name: "HP Victus, AMD Ryzen 7 7445HS, 6GB RTX 4050, 16GB DDR5(Upgradeable) 512GB SSD, 144Hz, IPS, 300 nits, 15.6''/39.6cm, Win11, Office24, Blue, 2.29kg, fb3130AX, DTS Audio, Xbox Gamepass*, Gaming Laptop", brand: "Demo Tech", category: "Laptops",
-    image: "assets/images/laptop.svg", price: 59990, originalPrice: 69990, discount: "14% OFF",
+    image: ""assets/images/61yRVs57voL._SL1500_.jpg", price: 59990, originalPrice: 69990, discount: "14% OFF",
     rating: 4.8, reviews: 840, retailer: "Amazon", affiliateUrl: "",
     description: "Demo laptop listing. Replace with verified product information.",
     features: ["14-inch display", "Lightweight design", "All-day productivity"],
